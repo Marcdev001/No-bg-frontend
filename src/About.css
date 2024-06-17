@@ -1,0 +1,176 @@
+.About {
+  opacity: 0;
+  transition: opacity 2s ease-in;
+  overflow: hidden;
+}
+
+.About.fade-in {
+  opacity: 1;
+}
+
+.section-3 {
+    margin-top: 4rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    overflow: hidden;
+}
+
+.section-3.fade-in {
+    opacity: 1;
+  }
+
+  .section-3-content {
+    padding: 2rem;
+  }
+
+  .section-3-content p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+.bg {
+    width: 350px;
+    height: 350px;
+}
+ 
+
+@media screen and (min-width: 992px) {
+    .section-3-content {
+        width: 50%;
+      }
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .section-3 {
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+        overflow: hidden;
+    }
+    .section-3.fade-in {
+        opacity: 1;
+    }
+    
+      .section-3-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 650px;
+        height: 650px;
+        padding-left: 3rem;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .section-3 {
+        display: flex;
+        justify-content: center;
+    }
+       
+      .section-3-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 500px;
+        height: 500px;
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-3-content {
+        width: 50%;
+      }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .section-3 {
+        margin-top: 4rem;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+        overflow: hidden;
+    }
+
+      .section-3-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 500px;
+        height: 500px;
+        padding-left: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .section-3-content {
+        width: 50%;
+      }
+}
+
+
+.what-we-offer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+
+}
+
+.what-we-offer h1 {
+    margin-bottom: 3rem;
+}
+
+.how-it-works {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.how-it-works h1 {
+    margin-bottom: 3rem;
+}
+
+.why-choose-no-bg {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.why-choose-no-bg h1 {
+    margin-bottom: 3rem;
+}
+
+.join {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.join h1 {
+    margin-bottom: 3rem;
+}
+
+/* Starting footer */
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.footer-link {
+  margin-bottom: 1rem;
+  
+}

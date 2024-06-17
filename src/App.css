@@ -1,0 +1,497 @@
+/* Starting of section 1 */
+.section-1 {
+    margin-top: 7rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.section-1.fade-in {
+    opacity: 1;
+  }
+
+  .section-1-content {
+    padding: 2rem;
+  }
+
+  .section-1-content p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+.bg {
+    width: 350px;
+    height: 350px;
+}
+ 
+
+@media screen and (min-width: 992px) {
+    .section-1-content {
+        width: 50%;
+      }
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .section-1 {
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+        overflow: hidden;
+    }
+    .section-1.fade-in {
+        opacity: 1;
+    }
+    
+      .section-1-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 650px;
+        height: 650px;
+        padding-left: 3rem;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .section-1 {
+        display: flex;
+        justify-content: center;
+    }
+       
+      .section-1-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 500px;
+        height: 500px;
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-1-content {
+        width: 50%;
+      }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .section-1 {
+        margin-top: 7rem;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+        overflow: hidden;
+    }
+
+      .section-1-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 500px;
+        height: 500px;
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-1-content {
+        width: 50%;
+      }
+}
+
+
+/* Above code is for section 1 */
+
+/* Starting of section 1 */
+.section-2 {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    overflow: hidden;
+    margin-bottom: 5rem;
+    
+}
+
+.section-2.fade-in {
+    opacity: 1;
+  }
+
+.section-2 h1, p{
+    margin-bottom: 1rem;
+    
+}
+.section-2 p {
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+.section-2-button button {
+    border: 2px solid #fff;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 4rem;
+    background-color: yellow;
+}
+
+.section-2-button h2 {
+    color: #fff;
+}
+.icon {
+    padding: 1rem;
+    font-size: 3rem;
+    color: #fff;
+}
+
+/* Done with section 2 */
+
+/* Starting section 3 */
+.section-3 {
+    margin-top: 4rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    overflow: hidden;
+}
+
+.section-3.fade-in {
+    opacity: 1;
+  }
+
+  .section-3-content {
+    padding: 2rem;
+  }
+
+  .section-3-content p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+.bg {
+    width: 350px;
+    height: 350px;
+}
+ 
+
+@media screen and (min-width: 992px) {
+    .section-3-content {
+        width: 50%;
+      }
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .section-3 {
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+        overflow: hidden;
+    }
+    .section-3.fade-in {
+        opacity: 1;
+    }
+    
+      .section-3-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 650px;
+        height: 650px;
+        padding-left: 3rem;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .section-3 {
+        display: flex;
+        justify-content: center;
+    }
+       
+      .section-3-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 500px;
+        height: 500px;
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-3-content {
+        width: 50%;
+      }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .section-3 {
+        margin-top: 4rem;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+        overflow: hidden;
+    }
+
+      .section-3-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 500px;
+        height: 500px;
+        padding-left: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .section-3-content {
+        width: 50%;
+      }
+}
+
+/* Done with section 3 */
+
+/* Starting section 4 */
+.section-4 {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    overflow: hidden;
+}
+
+.section-4.fade-in {
+    opacity: 1;
+  }
+
+  .section-4-content {
+    padding: 2rem;
+  }
+
+  .section-4-content p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+.bg {
+    width: 350px;
+    height: 350px;
+}
+ 
+
+@media screen and (min-width: 992px) {
+    .section-4-content {
+        width: 50%;
+      }
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .section-4 {
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+        overflow: hidden;
+    }
+    .section-4.fade-in {
+        opacity: 1;
+    }
+    
+      .section-4-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 650px;
+        height: 650px;
+        padding-left: 3rem;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .section-4 {
+        display: flex;
+        justify-content: center;
+    }
+       
+      .section-4-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 500px;
+        height: 500px;
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-4-content {
+        width: 50%;
+      }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .section-4 {
+        margin-top: 4rem;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+        overflow: hidden;
+    }
+
+      .section-4-content p {
+        padding: 1rem;
+        font-size: 1.1rem;
+      }
+
+    .bg {
+        width: 500px;
+        height: 500px;
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-4-content {
+        width: 50%;
+      }
+}
+
+
+/* Done with section 4 */
+
+/* Starting section 5 */
+.section-5 {
+    text-align: center;
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.section-5.fade-in {
+    opacity: 1;
+  }
+
+.section-5 p {
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+.section-5-image {
+    width: 300;
+    height: 300px;
+    padding: 5rem;
+
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 400px) {
+  .section-5-image {
+      width: 200px;
+      height: 200px;
+      padding: 1rem;
+  
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 488px) {
+    .section-5-image {
+        width: 300px;
+        height: 300px;
+        padding: 2.7rem;
+    
+    }
+}
+@media screen and (min-width: 826px) and (max-width: 1400px) {
+    .section-5-image {
+        width: 350px;
+        height: 350px;
+        padding: 4rem;
+    
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 2400px) {
+    .section-5-image {
+        width: 450px;
+        height: 450px;
+        padding: 4.5rem;
+    
+    }
+}
+
+@media screen and (min-width: 2400px) and (max-width: 4400px) {
+    .section-5-image {
+        width: 550px;
+        height: 550px;
+        padding: 6rem;
+    
+    }
+}
+
+.icon1 {
+    padding: 1rem;
+    font-size: 3rem;
+    color: #ffff00;
+}
+
+/* Done with section 5 */
+
+/* Starting section 6 */
+.section-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+  overflow: hidden;
+}
+
+.section-6.fade-in {
+  opacity: 1;
+}
+
+.section-6 p {
+  font-size: 1.1rem;
+}
+
+/* Done with section 6 */
+
+/* Starting footer */
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.footer-link {
+  margin-bottom: 1rem;
+  
+}

@@ -1,0 +1,38 @@
+.guide {
+    padding: 2rem;
+    margin-top: 7rem;
+    font-size: 1.1rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    overflow: hidden;
+  }
+  
+  .guide.fade-in {
+    opacity: 1;
+  }
+
+.guide h1 {
+    margin-bottom: 4rem;
+}
+
+.guide p {
+    margin-bottom: 10px;
+}
+
+.guide ol li {
+    margin-bottom: 10px;
+}
+
+/* Starting footer */
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .footer-link {
+    margin-bottom: 1rem;
+    
+  }
