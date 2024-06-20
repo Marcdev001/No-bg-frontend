@@ -56,15 +56,16 @@ const Home = () => {
           Enhance your photos with clean, professional results instantly.
         </p>
         <p>Click the (Arrow) below to get started!</p>
+        
         <div className="section-2-button">
-          <button>
+          <div className="button">
             <h2>Get Started Now</h2>
             <Link style={{ textDecoration: "none" }} to="/getstarted">
               <span>
                 <i class="fa-solid fa-arrow-right fa-fade icon"></i>
               </span>
             </Link>
-          </button>
+          </div>
         </div>
       </div>
 
@@ -201,3 +202,16 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+<div className="section-2-button">
+          <div className="button">
+            <h2>Get Started Now</h2>
+            <Link style={{ textDecoration: "none" }} to="/getstarted">
+              <span>
+                <i class="fa-solid fa-arrow-right fa-fade icon"></i>
+              </span>
+            </Link>
+          </div>
+        </div>

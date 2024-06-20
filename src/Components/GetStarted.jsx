@@ -17,13 +17,13 @@ const GetStarted = () => {
       formData.append('bgColor', bgColor);
     }
     setLoading(true);
-
+    /* https://no-bg.onrender.com */
     try {
       const response = await fetch('https://no-bg.onrender.com/remove-bg', {
         method: 'POST',
         body: formData,
-      });
-
+      })
+      
       if (!response.ok) {
         throw new Error('Failed to remove background');
       }

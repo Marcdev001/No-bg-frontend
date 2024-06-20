@@ -114,7 +114,7 @@
 
 /* Above code is for section 1 */
 
-/* Starting of section 1 */
+/* Starting of section 2 */
 .section-2 {
     text-align: center;
     opacity: 0;
@@ -136,13 +136,14 @@
     padding: 1rem;
     font-size: 1.1rem;
 }
-.section-2-button button {
-    border: 2px solid #fff;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    border-radius: 4rem;
-    background-color: yellow;
+
+.section-2-button .button {
+  border: 2px solid #fff;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: yellow;
 }
+
 
 .section-2-button h2 {
     color: #fff;
