@@ -70,7 +70,6 @@ const GetStarted = () => {
 
   return (
     <div className={`App ${isVisible ? "fade-in" : ""}`}>
-        <h1>gt</h1>
       <form onSubmit={handleUpload}>
         <input
           type="file"
