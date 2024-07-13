@@ -1,80 +1,79 @@
 .App {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 2rem;
-    opacity: 0;
-    transition: opacity 2s ease-in;
-    overflow: hidden;
-  }
-  
-  .App.fade-in {
-    opacity: 1;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .Enter-color {
-    padding: 2rem;
-    border: 3px solid #fff;
-    border-radius: 2rem;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+  overflow: hidden;
+}
 
-  button {
-    margin-top: 1rem;
-    padding: 1rem;
-    border: 2px solid #fff;
-    border-radius: 50px;
-    font-size: 1.1rem;
-    color: #fff;
-    background-color: #ffff00;
-  }
+.App.fade-in {
+  opacity: 1;
+}
 
-  button:hover {
-    background-color: #fff;
-    color: #ffff00;
-  }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .save-button {
-    margin-left: 1rem;
-  }
+.Enter-color {
+  padding: 2rem;
+  border: 3px solid #fff;
+  border-radius: 2rem;
+}
 
-  .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
-    padding: 20px;
-    margin-top: 20px;
-    position: relative;
-  }
-  
-  .image-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    position: relative;
-  }
-  
+button {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #ffff00;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #ffff00;
+}
+
+.save-button {
+  margin-left: 1rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+}
+
+.processed-image {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+}
+
+@media (max-width: 600px) {
   .processed-image {
-    max-width: 100%;
-    height: auto;
-    width: 400px;
+    width: 250px;
   }
-  
-  @media (max-width: 600px) {
-    .processed-image {
-      width: 250px;
-    }
-  }
-  
-  
-  
+}
+
+
