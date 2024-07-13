@@ -1,6 +1,6 @@
 {
     "routes": [
-        { "handle": "filesystem" },
-        { "source": "/(.*)", "destination": "/about"}
+        { "handle": "filesystem"},
+        { "src": "/.*", "dest": "/"}
     ]
 }
