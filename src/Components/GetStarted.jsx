@@ -32,6 +32,8 @@ const GetStarted = () => {
       const url = URL.createObjectURL(blob);
       setImageSrc(url);
       setIsBgRemoved(true);
+    } catch (error) {
+      console.error('Error:', error);
     } finally {
       setLoading(false);
     }
@@ -95,7 +97,6 @@ const GetStarted = () => {
           </div>
           {!loading && <button className='save-button' onClick={handleDownload}>Save</button>}
         </div>
-        
       )}
 
       <BackToTop />
@@ -104,6 +105,3 @@ const GetStarted = () => {
 }
 
 export default GetStarted
-
-
- 
