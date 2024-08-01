@@ -77,7 +77,7 @@ const GetStarted = () => {
         <input
           type="file"
           accept="image/*"
-          onChange={handleFileChange}
+         onChange={handleFileChange}
         />
         <input
           className='Enter-color'
