@@ -9,7 +9,7 @@ const backgroundDesigns = [
   { id: "design3", name: "Not Available", url: "https://example.com/background-designs/design3.jpg" },
 ];
 
-const API_BASE_URL = "http://localhost:3001";
+const API_BASE_URL = "https://no-bg.onrender.com";
 
 function GetStarted() {
   const [file, setFile] = useState(null);
