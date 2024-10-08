@@ -14,10 +14,34 @@
   opacity: 1;
 }
 
+
+.getstarted-guide{
+  color: #0000006e;
+}
+@media  screen and (max-width: 675px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 3rem;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    overflow: hidden;
+  }
+  
+  .App.fade-in {
+    opacity: 1;
+  }
+}
 form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Enter-color {
@@ -34,6 +58,7 @@ button {
   font-size: 1.1rem;
   color: #fff;
   background-color: #ffff00;
+  margin-bottom: 1rem;
 }
 
 button:hover {
@@ -75,5 +100,4 @@ button:hover {
     width: 250px;
   }
 }
-
 
