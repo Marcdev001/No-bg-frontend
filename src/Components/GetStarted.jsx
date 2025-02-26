@@ -90,7 +90,7 @@ const GetStarted = () => {
         <button style={{marginBottom: '2rem'}} type="button" onClick={handleApplyColor}>Apply Color</button>
         <h4 style={{textAlign: 'center', color: 'silver', marginBottom: '4rem'}}> Your Image Displays Here</h4>
       </form>
-      {loading && <p>Loading...</p>}
+      {loading && <p style={{color: 'silver'}}>Loading...</p>}
       {imageSrc && (
         <div className="image-container">
           <div className="image-wrapper" style={{ backgroundColor: bgColor }}>
