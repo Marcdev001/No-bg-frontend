@@ -55,7 +55,7 @@ const Home = () => {
           Easily remove backgrounds from your images in just a few clicks.
           Enhance your photos with clean, professional results instantly.
         </p>
-        <p>Click the (Arrow) below to get started!</p>
+        
         
         <div className="section-2-button">
           <div className="button">

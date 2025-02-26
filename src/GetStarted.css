@@ -1,103 +1,188 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
 .App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 2rem;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
   opacity: 0;
-  transition: opacity 2s ease-in;
-  overflow: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .App.fade-in {
   opacity: 1;
+  transform: translateY(0);
 }
 
+h4 {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #555;
+}
 
-.getstarted-guide{
-  color: #0000006e;
-}
-@media  screen and (max-width: 675px) {
-  .App {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 3rem;
-    opacity: 0;
-    transition: opacity 2s ease-in;
-    overflow: hidden;
-  }
-  
-  .App.fade-in {
-    opacity: 1;
-  }
-}
 form {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .Enter-color {
-  padding: 2rem;
-  border: 3px solid #fff;
-  border-radius: 2rem;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.Enter-color:focus {
+  border-color: #007bff;
+  outline: none;
 }
 
 button {
-  margin-top: 1rem;
-  padding: 1rem;
-  border: 2px solid #fff;
-  border-radius: 50px;
-  font-size: 1.1rem;
+  padding: 10px 20px;
+  font-size: 1rem;
   color: #fff;
-  background-color: #ffff00;
-  margin-bottom: 1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px; /* Add spacing between buttons */
 }
 
 button:hover {
-  background-color: #fff;
-  color: #ffff00;
+  background-color: #0056b3;
 }
 
-.save-button {
-  margin-left: 1rem;
+button.save-button {
+  background-color: #28a745;
+  margin-top: 20px; /* Space between image and save button */
+  display: inline-block; /* Ensure proper alignment */
+}
+
+button.save-button:hover {
+  background-color: #1e7e34;
 }
 
 .image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 100%;
-  padding: 20px;
-  margin-top: 20px;
-  position: relative;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .image-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%; /* Ensure wrapper is responsive */
+}
+
+.image-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .processed-image {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
-  width: 400px;
+  border-radius: 5px;
+  animation: fadeIn 1s ease-in-out;
 }
 
-@media (max-width: 600px) {
-  .processed-image {
-    width: 250px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
+p {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/* Scroll Animation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  input[type="file"],
+  .Enter-color {
+    width: 100%;
+  }
+
+  .image-wrapper {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  button.save-button {
+    margin-top: 15px; /* Adjust spacing for smaller screens */
+  }
+
+  .processed-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 5px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  button {
+    margin: 10px; /* Add spacing between buttons on medium screens */
+  }
+
+  .image-wrapper {
+    padding: 18px; /* Slightly reduce padding for medium screens */
+  }
+
+  button.save-button {
+    margin-top: 18px; /* Adjust spacing for medium screens */
+  }
+  
+}
