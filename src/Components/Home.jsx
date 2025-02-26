@@ -179,26 +179,26 @@ const Home = () => {
 
 
       <div className="footer">
-        <div className="footer-link">
-          <Link style={{ textDecoration: "none", color: "white" }} to="/terms">
-            Terms and Condition
-          </Link>
-        </div>
-        <div className="footer-link">
-          <Link
-            style={{ textDecoration: "none", color: "white" }}
-            to="/testimonials"
-          >
-            User Testimonials
-          </Link>
-        </div>
-        <div style={{color: " #0000006e"}}>Get Error 404 ? Please exit the website and revisit! THANK YOU</div>
-        <div className="footer-link">
-          <div className="copyright">
-            &copy; 2024 No-bg. All Right Reserved.
-          </div>
+      <div className="footer-link">
+        <Link style={{ textDecoration: "none", color: "white" }} to="/terms">
+          Terms and Condition
+        </Link>
+      </div>
+      <div className="footer-link">
+        <Link
+          style={{ textDecoration: "none", color: "white" }}
+          to="/testimonials"
+        >
+          User Testimonials
+        </Link>
+      </div>
+      <div style={{color: " #0000006e"}}>Get Error 404 ? Please exit the website and revisit! THANK YOU</div>
+      <div className="footer-link">
+        <div className="copyright">
+          &copy; 2025 No-bg. All Right Reserved.
         </div>
       </div>
+    </div>
     </div>
   );
 };

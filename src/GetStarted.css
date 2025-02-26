@@ -186,3 +186,16 @@ html {
   }
   
 }
+
+/* Starting footer */
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.footer-link {
+  margin-bottom: 1rem;
+  
+}

@@ -56,7 +56,7 @@ const Guide = () => {
         </div>
         <div className="footer-link">
           <div className="copyright">
-            &copy; 2024 No-bg. All Right Reserved.
+            &copy; 2025 No-bg. All Right Reserved.
           </div>
         </div>
       </div>

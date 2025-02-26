@@ -99,7 +99,6 @@ const GetStarted = () => {
           {!loading && <button className='save-button' onClick={handleDownload}>Save</button>}
         </div>
       )}
-
       <BackToTop />
     </div>
   )
